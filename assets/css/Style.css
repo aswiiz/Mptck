@@ -1,51 +1,71 @@
-
-/* Custom CSS System Layer for MPTC Website Layouts */
-
+/* ==========================================================================
+   Core Layout & Variable Resets
+   ========================================================================== */
 :root {
-    --brand-primary: #0062ff;
-    --brand-dark: #001a4d;
+    --brand-50: #f0f7ff;
+    --brand-600: #0062ff;
+    --brand-900: #002e80;
+    --brand-950: #001a4d;
     --accent: #06b6d4;
-    --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
 }
 
-h1, h2, h3, h4, .font-display {
-    font-family: 'Space Grotesk', sans-serif;
+/* Custom Line Clamp Fallback for older engine rendering matrices */
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 
-/* Glassmorphism Navigation Effect Override */
-.glass-nav {
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+/* ==========================================================================
+   Video Background Section Mechanics
+   ========================================================================== */
+video {
+    object-fit: cover;
+    will-change: transform;
 }
 
-/* Interactive Component Card Effects */
-.interactive-card {
-    transition: var(--transition-smooth);
-}
-.interactive-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.04);
-    border-color: rgba(0, 98, 255, 0.15);
-}
-
-/* Custom Scrollbar Interface styling */
+/* Custom Scrollbar Architecture for internal components */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
+    height: 6px;
 }
+
 ::-webkit-scrollbar-track {
-    background: #f1f5f9;
+    background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
     background: #cbd5e1;
-    border-radius: 9999px;
+    border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: #94a3b8;
+}
+
+/* ==========================================================================
+   Chatbot Interface Mechanics
+   ========================================================================== */
+#chatbot-box {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+#chatbot-box.flex {
+    animation: botReveal 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes botReveal {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
 }
