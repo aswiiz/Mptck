@@ -1,39 +1,29 @@
-/* UI/UX Performance Micro-Animations Matrix */
+ /* ==========================================================================
+   Micro-Interaction & Layout Transitions
+   ========================================================================== */
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(24px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-.fade-in-up {
-    animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-.fade-in {
-    animation: fadeIn 0.4s ease-in-out forwards;
-}
-
-/* Staggering assistance logic classes */
-.delay-100 { animation-delay: 100ms; }
-.delay-200 { animation-delay: 200ms; }
-.delay-300 { animation-delay: 300ms; }
-
-/* Micro transition utility items */
-.hover-lift {
-    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hover-lift:hover {
+/* Card hover scaling dynamics */
+.group:hover {
     transform: translateY(-2px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Micro-Pulse for status indicators */
+.animate-pulse-slow {
+    animation: pulseSlow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulseSlow {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: .4; transform: scale(1.02); }
+}
+
+/* Smooth Interactive state tracking vectors */
+a, button {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Map frame interaction matrix transition */
+iframe {
+    transition: filter 0.5s ease-in-out;
+}
