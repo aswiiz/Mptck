@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model Polytechnic College Karunagappally | IHRD</title>
-    <!-- Tailwind CSS -->
+    <title>Model Polytechnic College Karunagappally | Home</title>
+    <!-- Tailwind CSS Engine -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
+    <!-- Google Typography Matrix -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome for Premium Icons -->
+    <!-- FontAwesome Vector Architecture -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom Project Stylesheets -->
+    <!-- Integrated Layout Core Stylesheets -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -43,1105 +43,218 @@
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased overflow-x-hidden">
 
-    <!-- Top Urgent Dynamic Notification Bar -->
-    <div class="bg-brand-950 text-slate-300 text-xs py-2.5 px-4 sticky top-0 z-50 border-b border-slate-800">
-        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+    <!-- Global Top Bar -->
+    <div class="bg-brand-950 text-slate-300 text-[11px] font-semibold py-2 border-b border-brand-900 hidden sm:block">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
             <div class="flex items-center space-x-6">
-                <a href="tel:+914762623597" class="hover:text-white transition-colors flex items-center"><i class="fa-solid fa-phone text-accent mr-2"></i>+91 476 262 3597</a>
-                <a href="mailto:mptkarunagappally@ihrd.ac.in" class="hover:text-white transition-colors flex items-center hidden md:flex"><i class="fa-solid fa-envelope text-accent mr-2"></i>mptkarunagappally@ihrd.ac.in</a>
+                <span><i class="fa-solid fa-graduation-cap text-accent mr-2"></i>AICTE Approved Diploma Institution</span>
+                <span><i class="fa-solid fa-building-columns text-accent mr-2"></i>Managed by IHRD, Govt. of Kerala</span>
             </div>
             <div class="flex items-center space-x-4">
-                <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/10 text-amber-400 animate-pulse uppercase tracking-wider">
-                    <span class="w-1.5 h-1.5 rounded-full bg-amber-400 mr-1.5"></span>Admissions Open
-                </span>
-                <a href="#admission-query" class="text-white underline hover:text-accent font-medium text-[11px]">Apply for Lateral Entry Now &rarr;</a>
+                <a href="#admission-query" class="text-white hover:text-accent transition-colors">Admission Help Desk</a>
             </div>
         </div>
     </div>
 
-    <!-- Main Navigation Bar -->
-    <header id="navbar" class="bg-white/80 backdrop-blur-md sticky top-[37px] z-40 transition-all duration-300 border-b border-slate-100">
+    <!-- Navigation Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-            <!-- Brand Identity -->
             <a href="index.html" class="flex items-center space-x-3 group">
-                <img src="assets/images/logo.png" alt="MPTKY Logo" class="w-12 h-12 object-contain group-hover:scale-105 transition-transform fallback-logo" onerror="this.style.display='none'; document.getElementById('fallback-logo-box').style.display='flex'">
-                <div id="fallback-logo-box" class="w-12 h-12 bg-brand-600 rounded-xl flex items-center justify-center text-white font-bold text-xl hidden">M</div>
+                <div class="w-11 h-11 bg-brand-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-sm shadow-brand-600/20">M</div>
                 <div>
-                    <h1 class="font-display font-bold text-slate-900 tracking-tight leading-tight text-lg">MPTKY</h1>
-                    <p class="text-[10px] text-slate-500 font-semibold tracking-wider uppercase">Model Polytechnic College Karunagappally</p>
+                    <h1 class="font-display font-bold text-slate-900 tracking-tight leading-tight text-sm sm:text-base">Model Polytechnic College</h1>
+                    <p class="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">Karunagappally Portal</p>
                 </div>
             </a>
-
-            <!-- Navigation Anchors -->
-            <nav class="hidden lg:flex items-center space-x-7 text-[14px] font-semibold text-slate-600">
+            <nav class="hidden md:flex items-center space-x-8 text-xs font-bold uppercase tracking-wider text-slate-600">
                 <a href="index.html" class="text-brand-600 transition-colors">Home</a>
-                <a href="#about" class="hover:text-brand-600 transition-colors">About</a>
-                <a href="#why-choose-us" class="hover:text-brand-600 transition-colors">Why Choose Us</a>
-                <a href="#departments" class="hover:text-brand-600 transition-colors">Departments</a>
-                <a href="#placements" class="hover:text-brand-600 transition-colors">Placements</a>
-                <a href="#reviews" class="hover:text-brand-600 transition-colors">Reviews</a>
-                <a href="#contact" class="hover:text-brand-600 transition-colors">Contact</a>
+                <a href="#departments" class="hover:text-slate-900 transition-colors">Departments</a>
+                <a href="#admission-query" class="hover:text-slate-900 transition-colors">Admissions</a>
             </nav>
-
-            <!-- CTA Interface Portal -->
-            <div class="hidden lg:flex items-center space-x-4">
-                <a href="downloads.html" class="text-slate-600 hover:text-brand-600 text-sm font-semibold p-2"><i class="fa-solid fa-download mr-1"></i> IHRD Forms</a>
-                <a href="#admission-query" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-brand-600/20 transition-all hover:shadow-xl hover:-translate-y-0.5">
-                    Query Portal
+            <div class="flex items-center">
+                <a href="#departments" class="bg-slate-900 text-white text-xs font-bold px-5 py-3 rounded-xl hover:bg-brand-600 transition-all shadow-sm">
+                    Explore Programs
                 </a>
-            </div>
-
-            <!-- Hamburger Button -->
-            <button id="menu-toggle" class="lg:hidden text-slate-800 p-2 focus:outline-none" aria-label="Toggle Menu">
-                <i class="fa-solid fa-bars text-xl transition-transform" id="menu-icon"></i>
-            </button>
-        </div>
-
-        <!-- Mobile Dynamic Drawer Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 absolute left-0 right-0 top-20 shadow-xl px-6 py-6 space-y-4 fade-in">
-            <div class="grid grid-cols-2 gap-4">
-                <a href="index.html" class="block font-semibold p-3 bg-brand-50 rounded-xl text-brand-600">Home</a>
-                <a href="#about" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">About Us</a>
-                <a href="#why-choose-us" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">Why Choose Us</a>
-                <a href="#departments" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">Departments</a>
-                <a href="#placements" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">Placements</a>
-                <a href="#reviews" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">Reviews</a>
-            </div>
-            <hr class="border-slate-100">
-            <div class="flex flex-col gap-3">
-                <a href="downloads.html" class="text-center font-semibold py-3 border border-slate-200 rounded-xl text-slate-700"><i class="fa-solid fa-download mr-1"></i> Downloads Node</a>
-                <a href="#admission-query" class="text-center font-semibold py-3 bg-brand-600 text-white rounded-xl">Admission Inquiry</a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="relative pt-10 pb-20 lg:pt-20 lg:pb-32 overflow-hidden bg-white">
-        <div class="absolute inset-0 bg-[radial-gradient(50rem_40rem_at_top_right,theme(colors.brand.50),white)] -z-10"></div>
-        
+    <!-- Hero Portal Display Block -->
+    <section class="relative py-20 lg:py-28 bg-white overflow-hidden border-b border-slate-100">
+        <div class="absolute inset-0 bg-[radial-gradient(45rem_30rem_at_top_right,theme(colors.brand.50),white)] -z-10"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                <div class="inline-flex items-center space-x-2 bg-brand-50 border border-brand-100 px-3 py-1.5 rounded-full text-brand-700 text-xs font-bold tracking-wide uppercase">
-                    <span class="w-2 h-2 rounded-full bg-brand-600"></span>
-                    <span>An IHRD Institution | Govt. of Kerala Undertaking</span>
-                </div>
-                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-slate-900 tracking-tight leading-[1.15]">
-                    Engineering Excellence Since <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-accent">1997</span>
-                </h2>
-                <p class="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                    Approved by AICTE and affiliated with the State Board of Technical Education (SBTE) Kerala, MPTKY shapes forward-thinking technical practitioners through industry-calibrated curriculums.
-                </p>
-                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-2">
-                    <a href="#admission-query" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold px-8 py-4 rounded-xl shadow-xl shadow-brand-600/20 transition-all text-center">Inquire for Admission</a>
-                    <a href="#departments" class="bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold px-8 py-4 rounded-xl transition-all text-center">View Departments</a>
-                </div>
-            </div>
-
-            <!-- Interactive Media Showcase Area -->
-            <div class="lg:col-span-5 relative hidden lg:block">
-                <div class="aspect-[4/5] rounded-[2rem] bg-slate-900 shadow-2xl overflow-hidden relative border-4 border-white group">
-                    <img src="assets/images/college-building.jpg" alt="MPTKY Main Campus Building" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90" onerror="this.src='https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=85'">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-8 left-8 right-8 text-white">
-                        <span class="text-xs uppercase font-bold tracking-widest text-accent">Karunagappally, Kollam</span>
-                        <h3 class="text-2xl font-display font-bold mt-1">Main Engineering Block</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Comprehensive About Section -->
-    <section id="about" class="py-20 bg-slate-50 scroll-mt-20 border-t border-slate-200/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-6 space-y-6">
-                    <span class="text-xs font-bold uppercase tracking-widest text-brand-600">Institution Identity</span>
-                    <h3 class="text-3xl font-display font-bold text-slate-900 sm:text-4xl">About Our Legacy</h3>
-                    <div class="w-12 h-1 bg-brand-600 rounded-full"></div>
-                    <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
-                        Model Polytechnic College, Karunagappally (MPTKY) is a premier technical institute established in 1997 under the <strong>Institute of Human Resources Development (IHRD)</strong>, a Government of Kerala undertaking. 
-                    </p>
-                    <p class="text-slate-600 leading-relaxed text-sm">
-                        Approved by the All India Council for Technical Education (AICTE) and affiliated with the State Board of Technical Education (SBTE) Kerala, the institute has spent nearly three decades cultivating a space where theoretical paradigms match actual laboratory benchmarks.
-                    </p>
-                    <div class="grid sm:grid-cols-2 gap-4 pt-2">
-                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 flex items-start space-x-3">
-                            <i class="fa-solid fa-circle-check text-brand-600 mt-1"></i>
-                            <span class="text-xs text-slate-600 font-medium">Regular 3-Year programs straight post-SSLC (10th standard).</span>
-                        </div>
-                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 flex items-start space-x-3">
-                            <i class="fa-solid fa-circle-check text-brand-600 mt-1"></i>
-                            <span class="text-xs text-slate-600 font-medium">Lateral Entry pathways straight into 2nd year for Plus Two/VHSE/ITI.</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Dynamic Graphic Cards -->
-                <div class="lg:col-span-6 grid sm:grid-cols-2 gap-6">
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-3">
-                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center text-lg"><i class="fa-solid fa-flask"></i></div>
-                        <h4 class="font-bold text-slate-900 text-sm">Advanced Labs Framework</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed">Fully functional independent rigs configured across computer hardware, electronics signal processing, and electrical networks.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-3">
-                        <div class="w-10 h-10 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-lg"><i class="fa-solid fa-chalkboard-user"></i></div>
-                        <h4 class="font-bold text-slate-900 text-sm">Digital Classrooms</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed">ICT-integrated projection frameworks and an expansive central reference layout library.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section id="why-choose-us" class="py-20 bg-white scroll-mt-20 border-b border-slate-200/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl mx-auto text-center space-y-3 mb-16">
-                <span class="text-xs font-bold uppercase tracking-widest text-brand-600">The MPTC Advantage</span>
-                <h3 class="text-3xl font-display font-bold text-slate-900 sm:text-4xl">Why Choose MPTC Karunagappally?</h3>
-                <p class="text-slate-500 text-sm max-w-xl mx-auto">Delivering academic pathways alongside hands-on industrial experiences to engineer workplace-ready technology pioneers.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Placement Record Box -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">100% Placement Record</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Distinguished track record driven by active industrial placement linkages. Graduates benefit from solid corporate placement tracks with students taking part in over 170 recruitment cycles during the 2025-26 academic year.
-                    </p>
-                </div>
-
-                <!-- Qualified Faculty -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-user-graduate"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Expert & Qualified Faculty</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Our seasoned technical mentors blend modern engineering paradigms with systematic student monitoring, steering classroom groups toward continuous analytical problem-solving abilities.
-                    </p>
-                </div>
-
-                <!-- Modern Labs -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-microchip"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Modern Laboratories</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        State-of-the-art laboratory workshops loaded with custom instruments, advanced computing software tools, and standard diagnostic modules for high-level practical execution.
-                    </p>
-                </div>
-
-                <!-- Industry On Campus -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-industry"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Industry On Campus (IOC)</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Hosts two dedicated production units offering true industrial work exposure. Students gain real operational training by building industrial voltage stabilizers/inverters and engineering specialized software products.
-                    </p>
-                </div>
-
-                <!-- Government Controlled Institution -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-building-shield"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Government Regulated</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Operating under strict IHRD state policy frameworks, we uphold superior academic standards alongside transparent, affordable structures to ensure equitable access to elite technology tracks.
-                    </p>
-                </div>
-
-                <!-- Excellent Academic Results -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-cyan-50 text-cyan-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-medal"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Excellent Academic Results</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Our strict continuous evaluation processes enable classroom batches to regularly claim peak academic marks, honors lists, and top positions under state board metrics.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Core Academic Offerings Grid (As configured in image_742b99.jpg) -->
-    <section id="departments" class="py-20 bg-slate-50 scroll-mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl mx-auto text-center space-y-3 mb-16">
-                <span class="text-xs font-bold uppercase tracking-widest text-brand-600">Educational Programs</span>
-                <h3 class="text-3xl font-display font-bold text-slate-900 sm:text-4xl">Our Engineering Departments</h3>
-                <p class="text-slate-500 text-xs max-w-xl mx-auto">Explore our six core diploma specializations offering comprehensive theoretical tracks and advanced laboratory structures.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- 1. Computer Engineering (CT) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-desktop"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">CT</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Computer Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Focuses on Computer softwares, Artificial Intelligence, Machine Learning, Cloud architecture, and structured programming structures.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 2. Computer Science & Technology (CG) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-microchip"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">CG</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Computer Science & Technology</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Equips students with a solid foundation in computer hardware, software systems development, analytics, and operational system configurations.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 3. Electronics & Communication Engineering (ECE) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-tower-cell"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">ECE</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Electronics & Communication Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Bridges electronics and communication systems, offering training in fields such as telecommunication, antennas, and signal grids.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 4. Electronics Engineering (EL) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-wave-square"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">EL</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Electronics Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Covers the fundamentals of electronic circuits, component hardware devices, processing networks, and responsive industrial system modules.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 5. Electrical & Electronics Engineering (EE) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-bolt"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">EE</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Electrical & Electronics Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Provides comprehensive training in electrical machineries, power transmission systems, automation logic, and smart grid tracking setup.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 6. Mechanical Engineering (ME) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-gears"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">ME</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Mechanical Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">One of the most versatile engineering disciplines, covering solid thermodynamics, industrial plant design mechanics, and machine design loops.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Placement Details Dashboard -->
-    <section id="placements" class="py-20 bg-slate-900 text-slate-100 scroll-mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-5 space-y-6">
-                    <span class="text-xs font-bold uppercase tracking-widest text-accent">Career Ecosystem</span>
-                    <h3 class="text-3xl font-display font-bold text-white sm:text-4xl">Training & Placement Cell</h3>
-                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
-                        Our active Placement Cell offers real career pathways for students, providing guidance, soft-skills modulation checkpoints, and on-campus recruitment cycles with recruiters across south India.
-                    </p>
-                    <div class="border-l-4 border-accent pl-4 py-1 bg-slate-800/40 rounded-r-xl">
-                        <p class="text-xs text-slate-300 italic">"Our training modules bridge the gap between classroom theory and real-world industrial needs."</p>
-                    </div>
-                </div>
-                <!-- Recruiters Node Showcase Box Layout -->
-                <div class="lg:col-span-7 bg-white/5 border border-white/10 rounded-3xl p-6 sm:p-8 grid grid-cols-2 sm:grid-cols-3 gap-4">
-                    <div class="p-4 bg-slate-950/40 rounded-xl border border-white/5 text-center space-y-1">
-                        <p class="text-2xl font-bold font-display text-accent">100%</p>
-                        <p class="text-[10px] uppercase font-bold tracking-wider text-slate-500">Placement Success</p>
-                    </div>
-                    <div class="p-4 bg-slate-950/40 rounded-xl border border-white/5 text-center space-y-1">
-                        <p class="text-2xl font-bold font-display text-accent">170+</p>
-                        <p class="text-[10px] uppercase font-bold tracking-wider text-slate-500">Recruitment Drives</p>
-                    </div>
-                    <div class="p-4 bg-slate-950/40 rounded-xl border border-white/5 text-center space-y-1 col-span-2 sm:col-span-1">
-                        <p class="text-2xl font-bold font-display text-accent">3 Years</p>
-                        <p class="text-[10px] uppercase font-bold tracking-wider text-slate-500">Consistent Records</p>
-                    </div>
-                    <!-- Recruiter Visual Badges -->
-                    <div class="col-span-full pt-4 border-t border-white/5 text-center">
-                        <p class="text-[11px] text-slate-500 font-bold uppercase tracking-widest mb-3">Our Graduates Work At</p>
-                        <div class="flex flex-wrap justify-center gap-3 text-xs font-bold text-slate-400">
-                            <span class="bg-slate-950 px-3 py-1.5 rounded-lg border border-white/5">Infosys</span>
-                            <span class="bg-slate-950 px-3 py-1.5 rounded-lg border border-white/5">TCS</span>
-                            <span class="bg-slate-950 px-3 py-1.5 rounded-lg border border-white/5">Wipro</span>
-                            <span class="bg-slate-950 px-3 py-1.5 rounded-lg border border-white/5">Keltron</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Admission Query Form & Google Review Layout -->
-    <section id="admission-query" class="py-20 bg-white scroll-mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12">
-            
-            <!-- Form Grid Block -->
-            <div class="lg:col-span-6 bg-slate-50 p-6 sm:p-10 rounded-3xl border border-slate-200/60 shadow-sm space-y-6">
-                <div>
-                    <span class="text-xs font-bold uppercase tracking-widest text-brand-600">Secure Your Slot</span>
-                    <h3 class="text-2xl font-display font-bold text-slate-900 mt-1">Admission Query Portal</h3>
-                    <p class="text-slate-500 text-xs mt-1">Submit your details below, and our academic support desk will get back to you shortly.</p>
-                </div>
-                
-                <form action="#" method="POST" class="space-y-4">
-                    <div class="grid sm:grid-cols-2 gap-4">
-                        <div>
-                            <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Full Name</label>
-                            <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:border-brand-600 focus:ring-1 focus:ring-brand-600 transition-all">
-                        </div>
-                        <div>
-                            <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Phone Number</label>
-                            <input type="tel" required placeholder="+91 98765 43210" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:border-brand-600 focus:ring-1 focus:ring-brand-600 transition-all">
-                        </div>
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Email Address</label>
-                        <input type="email" required placeholder="john@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:border-brand-600 focus:ring-1 focus:ring-brand-600 transition-all">
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Preferred Department Track</label>
-                        <select required class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:border-brand-600 transition-all">
-                            <option value="" disabled selected hidden>Select Program...</option>
-                            <option value="ct">Computer Engineering (CT)</option>
-                            <option value="cg">Computer Science & Technology (CG)</option>
-                            <option value="ece">Electronics & Communication Engineering (ECE)</option>
-                            <option value="el">Electronics Engineering (EL)</option>
-                            <option value="ee">Electrical & Electronics Engineering (EE)</option>
-                            <option value="me">Mechanical Engineering (ME)</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Admission Type</label>
-                        <div class="flex gap-4 text-xs font-semibold text-slate-600 pt-1">
-                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="adm_type" value="regular" checked class="accent-brand-600"> Regular (Post 10th)</label>
-                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="adm_type" value="lateral" class="accent-brand-600"> Lateral Entry (Plus Two/ITI)</label>
-                        </div>
-                    </div>
-                    <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-semibold py-3.5 rounded-xl shadow-lg shadow-brand-600/10 transition-all text-sm tracking-wide">
-                        Submit Query Application
-                    </button>
-                </form>
-            </div>
-
-            <!-- Reviews/Testimonials Grid Block -->
-            <div id="reviews" class="lg:col-span-6 space-y-6 scroll-mt-20 flex flex-col justify-center">
-                <div>
-                    <span class="text-xs font-bold uppercase tracking-widest text-brand-600">Student Voices</span>
-                    <h3 class="text-2xl font-display font-bold text-slate-900 mt-1">Google Reviews & Feedback</h3>
-                    <div class="flex items-center space-x-1.5 text-amber-500 mt-2">
-                        <div class="text-xs flex gap-0.5"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                        <span class="text-slate-800 text-xs font-bold">4.6 / 5.0 Rating Matrix</span>
-                    </div>
-                </div>
-
-                <div class="space-y-4">
-                    <!-- Review Card -->
-                    <div class="p-5 bg-slate-50 border border-slate-100 rounded-2xl space-y-2">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h4 class="font-bold text-xs text-slate-900">Arun Kumar</h4>
-                                <p class="text-[10px] text-slate-400 font-medium">Alumnus, Computer Engineering</p>
-                            </div>
-                            <div class="text-[10px] text-amber-500 flex gap-0.5"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                        </div>
-                        <p class="text-slate-600 text-xs leading-relaxed">"Great labs environment and faculty support. The practical training I received here in computer networks helped me clear my corporate tech interview easily."</p>
-                    </div>
-
-                    <!-- Review Card -->
-                    <div class="p-5 bg-slate-50 border border-slate-100 rounded-2xl space-y-2">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h4 class="font-bold text-xs text-slate-900">Sneha P.</h4>
-                                <p class="text-[10px] text-slate-400 font-medium">Current Student, EEE Track</p>
-                            </div>
-                            <div class="text-[10px] text-amber-500 flex gap-0.5"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                        </div>
-                        <p class="text-slate-600 text-xs leading-relaxed">"The electrical labs are well-equipped. The lateral entry process was smooth and the continuous guidance from instructors is highly commendable."</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Embedded Map and Contact Details Section -->
-    <section id="contact" class="py-20 bg-slate-950 text-slate-100 scroll-mt-20 relative overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-stretch">
-                
-                <!-- Contact Hub Info Panel -->
-                <div class="lg:col-span-5 flex flex-col justify-between space-y-8">
-                    <div class="space-y-3">
-                        <span class="text-xs uppercase font-bold tracking-widest text-accent">Connect Instantly</span>
-                        <h2 class="text-3xl font-display font-bold text-white">Contact Info Hub</h2>
-                        <div class="w-12 h-1 bg-accent rounded-full"></div>
-                    </div>
-
-                    <div class="space-y-6 text-xs sm:text-sm text-slate-300">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-accent shrink-0 border border-slate-800"><i class="fa-solid fa-location-dot"></i></div>
-                            <div>
-                                <h4 class="font-bold text-white mb-0.5">Campus Address</h4>
-                                <p class="text-xs leading-relaxed text-slate-400">Maliyekkal Junction, Edakulangara P.O, Karunagappally, Kollam District, Kerala - 690523</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-4">
-                            <div class="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-accent shrink-0 border border-slate-800"><i class="fa-solid fa-phone"></i></div>
-                            <div>
-                                <h4 class="font-bold text-white mb-0.5">Telephone Lines</h4>
-                                <p class="text-xs text-slate-400">+91 476 262 3597 &nbsp;/&nbsp; +91 854 700 5083</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-4">
-                            <div class="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-accent shrink-0 border border-slate-800"><i class="fa-solid fa-globe"></i></div>
-                            <div>
-                                <h4 class="font-bold text-white mb-0.5">Digital Portals</h4>
-                                <p class="text-xs text-slate-400">Email: mptkarunagappally@ihrd.ac.in</p>
-                                <p class="text-xs text-slate-400">Official Web: <a href="http://mptkyy.ac.in" target="_blank" class="text-accent hover:underline">mptkyy.ac.in</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Transit Route Helpers -->
-                    <div class="pt-6 border-t border-slate-900 grid grid-cols-2 gap-4">
-                        <div class="space-y-1">
-                            <span class="text-amber-400 text-xs font-bold uppercase tracking-wider block"><i class="fa-solid fa-train mr-1"></i> Via Rail</span>
-                            <p class="text-[11px] text-slate-400 leading-relaxed">~3 km from Karunagappally Railway Station Node.</p>
-                        </div>
-                        <div class="space-y-1">
-                            <span class="text-sky-400 text-xs font-bold uppercase tracking-wider block"><i class="fa-solid fa-bus mr-1"></i> Via Bus</span>
-                            <p class="text-[11px] text-slate-400 leading-relaxed">~2 km from Karunagappally KSRTC / Private Stands.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Live Google Map Component Block -->
-                <div class="lg:col-span-7 min-h-[350px] rounded-3xl overflow-hidden shadow-2xl border border-slate-900 relative">
-                    <!-- Standard iframe embed mapping Karunagappally IHRD Polytechnic coordinates -->
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m2!1m1!2sModel+Polytechnic+College+Karunagappally!8m2!3d9.0642!4d76.5415!5m2!1sen!2sin" 
-                        class="absolute inset-0 w-full h-full border-0 grayscale opacity-85 contrast-125 focus:outline-none" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Structure Block -->
-    <footer class="bg-slate-950 text-slate-500 text-xs py-8 border-t border-slate-900/60">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p>&copy; 2026 Model Polytechnic College Karunagappally. Developed & Managed via IHRD System Node.</p>
-            <p class="flex items-center gap-3 text-slate-400 font-medium">
-                <span>Approved by AICTE</span>
-                <span class="w-1 h-1 rounded-full bg-slate-700"></span>
-                <span>Affiliated to SBTE, Kerala</span>
-            </p>
-        </div>
-    </footer>
-
-    <!-- JavaScript Navigation Logic -->
-    <script src="assets/js/main.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model Polytechnic College Karunagappally | IHRD</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome for Premium Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom Project Stylesheets -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/animations.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Plus Jakarta Sans', 'sans-serif'],
-                        display: ['Space Grotesk', 'sans-serif'],
-                    },
-                    colors: {
-                        brand: {
-                            50: '#f0f7ff',
-                            100: '#e0effe',
-                            600: '#0062ff',
-                            700: '#004ecb',
-                            900: '#002e80',
-                            950: '#001a4d'
-                        },
-                        accent: '#06b6d4'
-                    }
-                }
-            }
-        }
-    </script>
-</head>
-<body class="bg-slate-50 text-slate-800 antialiased overflow-x-hidden">
-
-    <!-- Top Urgent Dynamic Notification Bar -->
-    <div class="bg-brand-950 text-slate-300 text-xs py-2.5 px-4 sticky top-0 z-50 border-b border-slate-800">
-        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-            <div class="flex items-center space-x-6">
-                <a href="tel:+914762623597" class="hover:text-white transition-colors flex items-center"><i class="fa-solid fa-phone text-accent mr-2"></i>+91 476 262 3597</a>
-                <a href="mailto:mptkarunagappally@ihrd.ac.in" class="hover:text-white transition-colors flex items-center hidden md:flex"><i class="fa-solid fa-envelope text-accent mr-2"></i>mptkarunagappally@ihrd.ac.in</a>
-            </div>
-            <div class="flex items-center space-x-4">
-                <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/10 text-amber-400 animate-pulse uppercase tracking-wider">
-                    <span class="w-1.5 h-1.5 rounded-full bg-amber-400 mr-1.5"></span>Admissions Open
+            <div class="lg:col-span-7 space-y-6 text-center sm:text-left">
+                <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-50 border border-brand-100 text-xs font-bold text-brand-700">
+                    <span class="w-2 h-2 rounded-full bg-brand-600 animate-pulse"></span> Admissions Open 2026 - 2027
                 </span>
-                <a href="#admission-query" class="text-white underline hover:text-accent font-medium text-[11px]">Apply for Lateral Entry Now &rarr;</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Main Navigation Bar -->
-    <header id="navbar" class="bg-white/80 backdrop-blur-md sticky top-[37px] z-40 transition-all duration-300 border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex justify-between items-center">
-            <!-- Brand Identity -->
-            <a href="index.html" class="flex items-center space-x-3 group">
-                <img src="assets/images/logo.png" alt="MPTKY Logo" class="w-12 h-12 object-contain group-hover:scale-105 transition-transform fallback-logo" onerror="this.style.display='none'; document.getElementById('fallback-logo-box').style.display='flex'">
-                <div id="fallback-logo-box" class="w-12 h-12 bg-brand-600 rounded-xl flex items-center justify-center text-white font-bold text-xl hidden">M</div>
-                <div>
-                    <h1 class="font-display font-bold text-slate-900 tracking-tight leading-tight text-lg">MPTKY</h1>
-                    <p class="text-[10px] text-slate-500 font-semibold tracking-wider uppercase">Model Polytechnic College Karunagappally</p>
-                </div>
-            </a>
-
-            <!-- Navigation Anchors -->
-            <nav class="hidden lg:flex items-center space-x-7 text-[14px] font-semibold text-slate-600">
-                <a href="index.html" class="text-brand-600 transition-colors">Home</a>
-                <a href="#about" class="hover:text-brand-600 transition-colors">About</a>
-                <a href="#why-choose-us" class="hover:text-brand-600 transition-colors">Why Choose Us</a>
-                <a href="#departments" class="hover:text-brand-600 transition-colors">Departments</a>
-                <a href="#placements" class="hover:text-brand-600 transition-colors">Placements</a>
-                <a href="#reviews" class="hover:text-brand-600 transition-colors">Reviews</a>
-                <a href="#contact" class="hover:text-brand-600 transition-colors">Contact</a>
-            </nav>
-
-            <!-- CTA Interface Portal -->
-            <div class="hidden lg:flex items-center space-x-4">
-                <a href="downloads.html" class="text-slate-600 hover:text-brand-600 text-sm font-semibold p-2"><i class="fa-solid fa-download mr-1"></i> IHRD Forms</a>
-                <a href="#admission-query" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-brand-600/20 transition-all hover:shadow-xl hover:-translate-y-0.5">
-                    Query Portal
-                </a>
-            </div>
-
-            <!-- Hamburger Button -->
-            <button id="menu-toggle" class="lg:hidden text-slate-800 p-2 focus:outline-none" aria-label="Toggle Menu">
-                <i class="fa-solid fa-bars text-xl transition-transform" id="menu-icon"></i>
-            </button>
-        </div>
-
-        <!-- Mobile Dynamic Drawer Menu -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 absolute left-0 right-0 top-20 shadow-xl px-6 py-6 space-y-4 fade-in">
-            <div class="grid grid-cols-2 gap-4">
-                <a href="index.html" class="block font-semibold p-3 bg-brand-50 rounded-xl text-brand-600">Home</a>
-                <a href="#about" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">About Us</a>
-                <a href="#why-choose-us" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">Why Choose Us</a>
-                <a href="#departments" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">Departments</a>
-                <a href="#placements" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">Placements</a>
-                <a href="#reviews" class="block font-semibold p-3 hover:bg-slate-50 rounded-xl">Reviews</a>
-            </div>
-            <hr class="border-slate-100">
-            <div class="flex flex-col gap-3">
-                <a href="downloads.html" class="text-center font-semibold py-3 border border-slate-200 rounded-xl text-slate-700"><i class="fa-solid fa-download mr-1"></i> Downloads Node</a>
-                <a href="#admission-query" class="text-center font-semibold py-3 bg-brand-600 text-white rounded-xl">Admission Inquiry</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="relative pt-10 pb-20 lg:pt-20 lg:pb-32 overflow-hidden bg-white">
-        <div class="absolute inset-0 bg-[radial-gradient(50rem_40rem_at_top_right,theme(colors.brand.50),white)] -z-10"></div>
-        
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                <div class="inline-flex items-center space-x-2 bg-brand-50 border border-brand-100 px-3 py-1.5 rounded-full text-brand-700 text-xs font-bold tracking-wide uppercase">
-                    <span class="w-2 h-2 rounded-full bg-brand-600"></span>
-                    <span>An IHRD Institution | Govt. of Kerala Undertaking</span>
-                </div>
-                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-slate-900 tracking-tight leading-[1.15]">
-                    Engineering Excellence Since <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-accent">1997</span>
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold text-slate-900 tracking-tight leading-none">
+                    Architecting the <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-accent">Next Generation</span> of Engineers.
                 </h2>
-                <p class="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                    Approved by AICTE and affiliated with the State Board of Technical Education (SBTE) Kerala, MPTKY shapes forward-thinking technical practitioners through industry-calibrated curriculums.
+                <p class="text-slate-500 text-sm sm:text-base max-w-2xl leading-relaxed font-normal">
+                    Empowering technical experts through top-tier computational, electronics, and mechanical engineering curricula under the IHRD structural learning dynamic.
                 </p>
-                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-2">
-                    <a href="#admission-query" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold px-8 py-4 rounded-xl shadow-xl shadow-brand-600/20 transition-all text-center">Inquire for Admission</a>
-                    <a href="#departments" class="bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold px-8 py-4 rounded-xl transition-all text-center">View Departments</a>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start pt-2">
+                    <a href="#departments" class="bg-brand-600 text-white font-bold text-xs uppercase tracking-wider px-8 py-4 rounded-xl hover:bg-brand-700 shadow-md shadow-brand-600/10 transition-all">
+                        Browse Core Specializations
+                    </a>
+                    <a href="#admission-query" class="bg-slate-50 text-slate-700 border border-slate-200 font-bold text-xs uppercase tracking-wider px-8 py-4 rounded-xl hover:bg-slate-100 transition-all">
+                        Contact Help Desk
+                    </a>
                 </div>
             </div>
-
-            <!-- Interactive Media Showcase Area -->
-            <div class="lg:col-span-5 relative hidden lg:block">
-                <div class="aspect-[4/5] rounded-[2rem] bg-slate-900 shadow-2xl overflow-hidden relative border-4 border-white group">
-                    <img src="assets/images/college-building.jpg" alt="MPTKY Main Campus Building" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90" onerror="this.src='https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=85'">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    <div class="absolute bottom-8 left-8 right-8 text-white">
-                        <span class="text-xs uppercase font-bold tracking-widest text-accent">Karunagappally, Kollam</span>
-                        <h3 class="text-2xl font-display font-bold mt-1">Main Engineering Block</h3>
+            <div class="lg:col-span-5 hidden lg:block relative">
+                <div class="w-full aspect-[4/3] bg-gradient-to-tr from-brand-900 to-brand-950 rounded-2xl shadow-xl flex items-center justify-center p-8 relative">
+                    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                    <i class="fa-solid fa-graduation-cap text-white/10 text-9xl absolute right-6 bottom-6"></i>
+                    <div class="text-center space-y-3 z-10">
+                        <p class="text-accent text-xs font-bold uppercase tracking-widest font-display">Institution Code</p>
+                        <p class="text-white text-3xl font-display font-bold tracking-tight">MPTKY - 421</p>
+                        <p class="text-slate-400 text-xs max-w-xs mx-auto">State-of-the-art educational framework located in Karunagappally, Kerala.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Comprehensive About Section -->
-    <section id="about" class="py-20 bg-slate-50 scroll-mt-20 border-t border-slate-200/50">
+    <!-- Academic Departments Grid Section -->
+    <section id="departments" class="py-24 bg-slate-50 scroll-mt-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-6 space-y-6">
-                    <span class="text-xs font-bold uppercase tracking-widest text-brand-600">Institution Identity</span>
-                    <h3 class="text-3xl font-display font-bold text-slate-900 sm:text-4xl">About Our Legacy</h3>
-                    <div class="w-12 h-1 bg-brand-600 rounded-full"></div>
-                    <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
-                        Model Polytechnic College, Karunagappally (MPTKY) is a premier technical institute established in 1997 under the <strong>Institute of Human Resources Development (IHRD)</strong>, a Government of Kerala undertaking. 
-                    </p>
-                    <p class="text-slate-600 leading-relaxed text-sm">
-                        Approved by the All India Council for Technical Education (AICTE) and affiliated with the State Board of Technical Education (SBTE) Kerala, the institute has spent nearly three decades cultivating a space where theoretical paradigms match actual laboratory benchmarks.
-                    </p>
-                    <div class="grid sm:grid-cols-2 gap-4 pt-2">
-                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 flex items-start space-x-3">
-                            <i class="fa-solid fa-circle-check text-brand-600 mt-1"></i>
-                            <span class="text-xs text-slate-600 font-medium">Regular 3-Year programs straight post-SSLC (10th standard).</span>
-                        </div>
-                        <div class="bg-white p-4 rounded-xl border border-slate-200/60 flex items-start space-x-3">
-                            <i class="fa-solid fa-circle-check text-brand-600 mt-1"></i>
-                            <span class="text-xs text-slate-600 font-medium">Lateral Entry pathways straight into 2nd year for Plus Two/VHSE/ITI.</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Dynamic Graphic Cards -->
-                <div class="lg:col-span-6 grid sm:grid-cols-2 gap-6">
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-3">
-                        <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center text-lg"><i class="fa-solid fa-flask"></i></div>
-                        <h4 class="font-bold text-slate-900 text-sm">Advanced Labs Framework</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed">Fully functional independent rigs configured across computer hardware, electronics signal processing, and electrical networks.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-3">
-                        <div class="w-10 h-10 rounded-xl bg-accent/10 text-accent flex items-center justify-center text-lg"><i class="fa-solid fa-chalkboard-user"></i></div>
-                        <h4 class="font-bold text-slate-900 text-sm">Digital Classrooms</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed">ICT-integrated projection frameworks and an expansive central reference layout library.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section id="why-choose-us" class="py-20 bg-white scroll-mt-20 border-b border-slate-200/50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl mx-auto text-center space-y-3 mb-16">
-                <span class="text-xs font-bold uppercase tracking-widest text-brand-600">The MPTC Advantage</span>
-                <h3 class="text-3xl font-display font-bold text-slate-900 sm:text-4xl">Why Choose MPTC Karunagappally?</h3>
-                <p class="text-slate-500 text-sm max-w-xl mx-auto">Delivering academic pathways alongside hands-on industrial experiences to engineer workplace-ready technology pioneers.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Placement Record Box -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">100% Placement Record</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Distinguished track record driven by active industrial placement linkages. Graduates benefit from solid corporate placement tracks with students taking part in over 170 recruitment cycles during the 2025-26 academic year.
-                    </p>
-                </div>
-
-                <!-- Qualified Faculty -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-user-graduate"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Expert & Qualified Faculty</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Our seasoned technical mentors blend modern engineering paradigms with systematic student monitoring, steering classroom groups toward continuous analytical problem-solving abilities.
-                    </p>
-                </div>
-
-                <!-- Modern Labs -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-microchip"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Modern Laboratories</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        State-of-the-art laboratory workshops loaded with custom instruments, advanced computing software tools, and standard diagnostic modules for high-level practical execution.
-                    </p>
-                </div>
-
-                <!-- Industry On Campus -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-industry"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Industry On Campus (IOC)</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Hosts two dedicated production units offering true industrial work exposure. Students gain real operational training by building industrial voltage stabilizers/inverters and engineering specialized software products.
-                    </p>
-                </div>
-
-                <!-- Government Controlled Institution -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-building-shield"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Government Regulated</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Operating under strict IHRD state policy frameworks, we uphold superior academic standards alongside transparent, affordable structures to ensure equitable access to elite technology tracks.
-                    </p>
-                </div>
-
-                <!-- Excellent Academic Results -->
-                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all space-y-4">
-                    <div class="w-12 h-12 bg-cyan-50 text-cyan-600 rounded-xl flex items-center justify-center text-lg"><i class="fa-solid fa-medal"></i></div>
-                    <h4 class="font-display font-bold text-base text-slate-900">Excellent Academic Results</h4>
-                    <p class="text-slate-600 text-xs leading-relaxed">
-                        Our strict continuous evaluation processes enable classroom batches to regularly claim peak academic marks, honors lists, and top positions under state board metrics.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Core Academic Offerings Grid (As configured in image_742b99.jpg) -->
-    <section id="departments" class="py-20 bg-slate-50 scroll-mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-3xl mx-auto text-center space-y-3 mb-16">
-                <span class="text-xs font-bold uppercase tracking-widest text-brand-600">Educational Programs</span>
-                <h3 class="text-3xl font-display font-bold text-slate-900 sm:text-4xl">Our Engineering Departments</h3>
-                <p class="text-slate-500 text-xs max-w-xl mx-auto">Explore our six core diploma specializations offering comprehensive theoretical tracks and advanced laboratory structures.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- 1. Computer Engineering (CT) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-desktop"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">CT</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Computer Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Focuses on Computer softwares, Artificial Intelligence, Machine Learning, Cloud architecture, and structured programming structures.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 2. Computer Science & Technology (CG) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-microchip"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">CG</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Computer Science & Technology</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Equips students with a solid foundation in computer hardware, software systems development, analytics, and operational system configurations.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 3. Electronics & Communication Engineering (ECE) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-tower-cell"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">ECE</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Electronics & Communication Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Bridges electronics and communication systems, offering training in fields such as telecommunication, antennas, and signal grids.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 4. Electronics Engineering (EL) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-wave-square"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">EL</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Electronics Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Covers the fundamentals of electronic circuits, component hardware devices, processing networks, and responsive industrial system modules.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 5. Electrical & Electronics Engineering (EE) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-bolt"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">EE</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Electrical & Electronics Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">Provides comprehensive training in electrical machineries, power transmission systems, automation logic, and smart grid tracking setup.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-
-                <!-- 6. Mechanical Engineering (ME) -->
-                <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm hover:border-brand-600/30 transition-all flex flex-col justify-between">
-                    <div>
-                        <div class="flex justify-between items-start mb-4">
-                            <div class="w-10 h-10 bg-slate-100 text-slate-700 rounded-xl flex items-center justify-center text-sm"><i class="fa-solid fa-gears"></i></div>
-                            <span class="bg-brand-50 text-brand-700 text-[11px] font-bold px-2.5 py-1 rounded-md uppercase">ME</span>
-                        </div>
-                        <h4 class="font-display font-bold text-base text-slate-900 mb-1">Mechanical Engineering</h4>
-                        <p class="text-slate-500 text-xs leading-relaxed mb-6">One of the most versatile engineering disciplines, covering solid thermodynamics, industrial plant design mechanics, and machine design loops.</p>
-                    </div>
-                    <a href="#admission-query" class="text-xs font-bold text-brand-600 inline-flex items-center gap-1.5 hover:gap-2 transition-all">Read More <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Placement Details Dashboard -->
-    <section id="placements" class="py-20 bg-slate-900 text-slate-100 scroll-mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-5 space-y-6">
-                    <span class="text-xs font-bold uppercase tracking-widest text-accent">Career Ecosystem</span>
-                    <h3 class="text-3xl font-display font-bold text-white sm:text-4xl">Training & Placement Cell</h3>
-                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
-                        Our active Placement Cell offers real career pathways for students, providing guidance, soft-skills modulation checkpoints, and on-campus recruitment cycles with recruiters across south India.
-                    </p>
-                    <div class="border-l-4 border-accent pl-4 py-1 bg-slate-800/40 rounded-r-xl">
-                        <p class="text-xs text-slate-300 italic">"Our training modules bridge the gap between classroom theory and real-world industrial needs."</p>
-                    </div>
-                </div>
-                <!-- Recruiters Node Showcase Box Layout -->
-                <div class="lg:col-span-7 bg-white/5 border border-white/10 rounded-3xl p-6 sm:p-8 grid grid-cols-2 sm:grid-cols-3 gap-4">
-                    <div class="p-4 bg-slate-950/40 rounded-xl border border-white/5 text-center space-y-1">
-                        <p class="text-2xl font-bold font-display text-accent">100%</p>
-                        <p class="text-[10px] uppercase font-bold tracking-wider text-slate-500">Placement Success</p>
-                    </div>
-                    <div class="p-4 bg-slate-950/40 rounded-xl border border-white/5 text-center space-y-1">
-                        <p class="text-2xl font-bold font-display text-accent">170+</p>
-                        <p class="text-[10px] uppercase font-bold tracking-wider text-slate-500">Recruitment Drives</p>
-                    </div>
-                    <div class="p-4 bg-slate-950/40 rounded-xl border border-white/5 text-center space-y-1 col-span-2 sm:col-span-1">
-                        <p class="text-2xl font-bold font-display text-accent">3 Years</p>
-                        <p class="text-[10px] uppercase font-bold tracking-wider text-slate-500">Consistent Records</p>
-                    </div>
-                    <!-- Recruiter Visual Badges -->
-                    <div class="col-span-full pt-4 border-t border-white/5 text-center">
-                        <p class="text-[11px] text-slate-500 font-bold uppercase tracking-widest mb-3">Our Graduates Work At</p>
-                        <div class="flex flex-wrap justify-center gap-3 text-xs font-bold text-slate-400">
-                            <span class="bg-slate-950 px-3 py-1.5 rounded-lg border border-white/5">Infosys</span>
-                            <span class="bg-slate-950 px-3 py-1.5 rounded-lg border border-white/5">TCS</span>
-                            <span class="bg-slate-950 px-3 py-1.5 rounded-lg border border-white/5">Wipro</span>
-                            <span class="bg-slate-950 px-3 py-1.5 rounded-lg border border-white/5">Keltron</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Admission Query Form & Google Review Layout -->
-    <section id="admission-query" class="py-20 bg-white scroll-mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12">
             
-            <!-- Form Grid Block -->
-            <div class="lg:col-span-6 bg-slate-50 p-6 sm:p-10 rounded-3xl border border-slate-200/60 shadow-sm space-y-6">
-                <div>
-                    <span class="text-xs font-bold uppercase tracking-widest text-brand-600">Secure Your Slot</span>
-                    <h3 class="text-2xl font-display font-bold text-slate-900 mt-1">Admission Query Portal</h3>
-                    <p class="text-slate-500 text-xs mt-1">Submit your details below, and our academic support desk will get back to you shortly.</p>
-                </div>
-                
-                <form action="#" method="POST" class="space-y-4">
-                    <div class="grid sm:grid-cols-2 gap-4">
-                        <div>
-                            <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Full Name</label>
-                            <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:border-brand-600 focus:ring-1 focus:ring-brand-600 transition-all">
-                        </div>
-                        <div>
-                            <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Phone Number</label>
-                            <input type="tel" required placeholder="+91 98765 43210" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:border-brand-600 focus:ring-1 focus:ring-brand-600 transition-all">
-                        </div>
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Email Address</label>
-                        <input type="email" required placeholder="john@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:border-brand-600 focus:ring-1 focus:ring-brand-600 transition-all">
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Preferred Department Track</label>
-                        <select required class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm focus:outline-none focus:border-brand-600 transition-all">
-                            <option value="" disabled selected hidden>Select Program...</option>
-                            <option value="ct">Computer Engineering (CT)</option>
-                            <option value="cg">Computer Science & Technology (CG)</option>
-                            <option value="ece">Electronics & Communication Engineering (ECE)</option>
-                            <option value="el">Electronics Engineering (EL)</option>
-                            <option value="ee">Electrical & Electronics Engineering (EE)</option>
-                            <option value="me">Mechanical Engineering (ME)</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1.5">Admission Type</label>
-                        <div class="flex gap-4 text-xs font-semibold text-slate-600 pt-1">
-                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="adm_type" value="regular" checked class="accent-brand-600"> Regular (Post 10th)</label>
-                            <label class="flex items-center gap-2 cursor-pointer"><input type="radio" name="adm_type" value="lateral" class="accent-brand-600"> Lateral Entry (Plus Two/ITI)</label>
-                        </div>
-                    </div>
-                    <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-semibold py-3.5 rounded-xl shadow-lg shadow-brand-600/10 transition-all text-sm tracking-wide">
-                        Submit Query Application
-                    </button>
-                </form>
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <span class="text-xs font-bold uppercase tracking-widest text-brand-600 font-display">Academic Offerings</span>
+                <h2 class="text-3xl font-display font-bold text-slate-900 sm:text-4xl tracking-tight">Our Core Engineering Specializations</h2>
+                <p class="text-slate-500 text-xs sm:text-sm">Explore our 3-Year regular AICTE approved diploma engineering branches configured directly to meet international industrial standards.</p>
             </div>
 
-            <!-- Reviews/Testimonials Grid Block -->
-            <div id="reviews" class="lg:col-span-6 space-y-6 scroll-mt-20 flex flex-col justify-center">
-                <div>
-                    <span class="text-xs font-bold uppercase tracking-widest text-brand-600">Student Voices</span>
-                    <h3 class="text-2xl font-display font-bold text-slate-900 mt-1">Google Reviews & Feedback</h3>
-                    <div class="flex items-center space-x-1.5 text-amber-500 mt-2">
-                        <div class="text-xs flex gap-0.5"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                        <span class="text-slate-800 text-xs font-bold">4.6 / 5.0 Rating Matrix</span>
+            <!-- Cards Grid Matrix -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- 1. Computer Engineering -->
+                <div class="bg-white rounded-2xl border border-slate-200/60 p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center text-xl group-hover:bg-brand-600 group-hover:text-white transition-all">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3 class="text-lg font-display font-bold text-slate-900">Computer Engineering</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm line-clamp-3">Focuses on Computer software, Artificial Intelligence, Machine Learning, Cloud Computing and system administration.</p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100">
+                        <a href="department.html#ct" class="inline-flex items-center text-xs font-bold text-brand-600 hover:text-brand-700 gap-1 tracking-wide">
+                            READ MORE <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
                     </div>
                 </div>
 
-                <div class="space-y-4">
-                    <!-- Review Card -->
-                    <div class="p-5 bg-slate-50 border border-slate-100 rounded-2xl space-y-2">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h4 class="font-bold text-xs text-slate-900">Arun Kumar</h4>
-                                <p class="text-[10px] text-slate-400 font-medium">Alumnus, Computer Engineering</p>
-                            </div>
-                            <div class="text-[10px] text-amber-500 flex gap-0.5"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <!-- 2. Computer Hardware Engineering -->
+                <div class="bg-white rounded-2xl border border-slate-200/60 p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center text-xl group-hover:bg-brand-600 group-hover:text-white transition-all">
+                            <i class="fa-solid fa-microchip"></i>
                         </div>
-                        <p class="text-slate-600 text-xs leading-relaxed">"Great labs environment and faculty support. The practical training I received here in computer networks helped me clear my corporate tech interview easily."</p>
+                        <h3 class="text-lg font-display font-bold text-slate-900">Computer Hardware Engineering</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm line-clamp-3">Equips students with a solid foundation in computer hardware, software systems and network infrastructure blueprints across modern enterprises.</p>
                     </div>
-
-                    <!-- Review Card -->
-                    <div class="p-5 bg-slate-50 border border-slate-100 rounded-2xl space-y-2">
-                        <div class="flex justify-between items-start">
-                            <div>
-                                <h4 class="font-bold text-xs text-slate-900">Sneha P.</h4>
-                                <p class="text-[10px] text-slate-400 font-medium">Current Student, EEE Track</p>
-                            </div>
-                            <div class="text-[10px] text-amber-500 flex gap-0.5"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                        </div>
-                        <p class="text-slate-600 text-xs leading-relaxed">"The electrical labs are well-equipped. The lateral entry process was smooth and the continuous guidance from instructors is highly commendable."</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Embedded Map and Contact Details Section -->
-    <section id="contact" class="py-20 bg-slate-950 text-slate-100 scroll-mt-20 relative overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid lg:grid-cols-12 gap-12 items-stretch">
-                
-                <!-- Contact Hub Info Panel -->
-                <div class="lg:col-span-5 flex flex-col justify-between space-y-8">
-                    <div class="space-y-3">
-                        <span class="text-xs uppercase font-bold tracking-widest text-accent">Connect Instantly</span>
-                        <h2 class="text-3xl font-display font-bold text-white">Contact Info Hub</h2>
-                        <div class="w-12 h-1 bg-accent rounded-full"></div>
-                    </div>
-
-                    <div class="space-y-6 text-xs sm:text-sm text-slate-300">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-accent shrink-0 border border-slate-800"><i class="fa-solid fa-location-dot"></i></div>
-                            <div>
-                                <h4 class="font-bold text-white mb-0.5">Campus Address</h4>
-                                <p class="text-xs leading-relaxed text-slate-400">Maliyekkal Junction, Edakulangara P.O, Karunagappally, Kollam District, Kerala - 690523</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-4">
-                            <div class="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-accent shrink-0 border border-slate-800"><i class="fa-solid fa-phone"></i></div>
-                            <div>
-                                <h4 class="font-bold text-white mb-0.5">Telephone Lines</h4>
-                                <p class="text-xs text-slate-400">+91 476 262 3597 &nbsp;/&nbsp; +91 854 700 5083</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-4">
-                            <div class="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-accent shrink-0 border border-slate-800"><i class="fa-solid fa-globe"></i></div>
-                            <div>
-                                <h4 class="font-bold text-white mb-0.5">Digital Portals</h4>
-                                <p class="text-xs text-slate-400">Email: mptkarunagappally@ihrd.ac.in</p>
-                                <p class="text-xs text-slate-400">Official Web: <a href="http://mptkyy.ac.in" target="_blank" class="text-accent hover:underline">mptkyy.ac.in</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Transit Route Helpers -->
-                    <div class="pt-6 border-t border-slate-900 grid grid-cols-2 gap-4">
-                        <div class="space-y-1">
-                            <span class="text-amber-400 text-xs font-bold uppercase tracking-wider block"><i class="fa-solid fa-train mr-1"></i> Via Rail</span>
-                            <p class="text-[11px] text-slate-400 leading-relaxed">~3 km from Karunagappally Railway Station Node.</p>
-                        </div>
-                        <div class="space-y-1">
-                            <span class="text-sky-400 text-xs font-bold uppercase tracking-wider block"><i class="fa-solid fa-bus mr-1"></i> Via Bus</span>
-                            <p class="text-[11px] text-slate-400 leading-relaxed">~2 km from Karunagappally KSRTC / Private Stands.</p>
-                        </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100">
+                        <!-- Corrected department destination anchor target node to match page layout parameters -->
+                        <a href="department.html#cm" class="inline-flex items-center text-xs font-bold text-brand-600 hover:text-brand-700 gap-1 tracking-wide">
+                            READ MORE <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
                     </div>
                 </div>
 
-                <!-- Live Google Map Component Block -->
-                <div class="lg:col-span-7 min-h-[350px] rounded-3xl overflow-hidden shadow-2xl border border-slate-900 relative">
-                    <!-- Standard iframe embed mapping Karunagappally IHRD Polytechnic coordinates -->
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m2!1m1!2sModel+Polytechnic+College+Karunagappally!8m2!3d9.0642!4d76.5415!5m2!1sen!2sin" 
-                        class="absolute inset-0 w-full h-full border-0 grayscale opacity-85 contrast-125 focus:outline-none" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                <!-- 3. Electronics & Communication Engineering -->
+                <div class="bg-white rounded-2xl border border-slate-200/60 p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center text-xl group-hover:bg-brand-600 group-hover:text-white transition-all">
+                            <i class="fa-solid fa-satellite-dish"></i>
+                        </div>
+                        <h3 class="text-lg font-display font-bold text-slate-900">Electronics & Communication</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm line-clamp-3">Bridges electronics and communication systems, offering training in areas such as wireless networks, optical fibre, and 5G sectors.</p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100">
+                        <a href="department.html#ece" class="inline-flex items-center text-xs font-bold text-brand-600 hover:text-brand-700 gap-1 tracking-wide">
+                            READ MORE <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 4. Electronics Engineering -->
+                <div class="bg-white rounded-2xl border border-slate-200/60 p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center text-xl group-hover:bg-brand-600 group-hover:text-white transition-all">
+                            <i class="fa-solid fa-charging-station"></i>
+                        </div>
+                        <h3 class="text-lg font-display font-bold text-slate-900">Electronics Engineering</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm line-clamp-3">Covers the fundamentals of electronic circuits, devices, microcontrollers, consumer electronics, and PCB automation matrix structures.</p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100">
+                        <a href="department.html#el" class="inline-flex items-center text-xs font-bold text-brand-600 hover:text-brand-700 gap-1 tracking-wide">
+                            READ MORE <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 5. Electrical & Electronics Engineering -->
+                <div class="bg-white rounded-2xl border border-slate-200/60 p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center text-xl group-hover:bg-brand-600 group-hover:text-white transition-all">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3 class="text-lg font-display font-bold text-slate-900">Electrical & Electronics</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm line-clamp-3">Provides comprehensive training in electrical machines, power systems, control engineering, and renewable energy grids.</p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100">
+                        <a href="department.html#ee" class="inline-flex items-center text-xs font-bold text-brand-600 hover:text-brand-700 gap-1 tracking-wide">
+                            READ MORE <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 6. Mechanical Engineering -->
+                <div class="bg-white rounded-2xl border border-slate-200/60 p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition-all group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 bg-brand-50 text-brand-600 rounded-xl flex items-center justify-center text-xl group-hover:bg-brand-600 group-hover:text-white transition-all">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3 class="text-lg font-display font-bold text-slate-900">Mechanical Engineering</h3>
+                        <p class="text-slate-600 text-xs sm:text-sm line-clamp-3">Covers thermodynamics, manufacturing processes, machine design, fluid mechanics, and production design ecosystems.</p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100">
+                        <a href="department.html#me" class="inline-flex items-center text-xs font-bold text-brand-600 hover:text-brand-700 gap-1 tracking-wide">
+                            READ MORE <i class="fa-solid fa-arrow-right text-[10px] transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <!-- Footer Structure Block -->
-    <footer class="bg-slate-950 text-slate-500 text-xs py-8 border-t border-slate-900/60">
+    <!-- Simple Support Section Area -->
+    <section id="admission-query" class="py-16 bg-white border-t border-slate-100">
+        <div class="max-w-4xl mx-auto px-4 text-center space-y-4">
+            <h3 class="text-2xl font-display font-bold text-slate-900">Have Questions Regarding Admissions?</h3>
+            <p class="text-slate-500 text-xs sm:text-sm">Our structural academic council nodes are here to guide you through the reservation parameters, application pipelines, and fee breakdowns.</p>
+            <div class="pt-4">
+                <span class="inline-block bg-brand-50 border border-brand-100 text-brand-700 text-xs font-bold px-6 py-3 rounded-xl">
+                    <i class="fa-solid fa-headset mr-2 text-brand-600"></i>Official Help Desk Support: admission@mptky.ihrd.ac.in
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Integrated Academic Footer -->
+    <footer class="bg-slate-950 text-slate-500 text-xs py-8 border-t border-slate-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p>&copy; 2026 Model Polytechnic College Karunagappally. Developed & Managed via IHRD System Node.</p>
-            <p class="flex items-center gap-3 text-slate-400 font-medium">
-                <span>Approved by AICTE</span>
-                <span class="w-1 h-1 rounded-full bg-slate-700"></span>
-                <span>Affiliated to SBTE, Kerala</span>
-            </p>
+            <p>&copy; 2026 Model Polytechnic College Karunagappally. Managed via IHRD Systems Framework Node.</p>
+            <div class="flex gap-4 text-slate-400">
+                <a href="#departments" class="hover:text-white transition-colors">Courses Matrix</a>
+                <span>&middot;</span>
+                <a href="#admission-query" class="hover:text-white transition-colors">Queries Node</a>
+            </div>
         </div>
     </footer>
 
-    <!-- JavaScript Navigation Logic -->
-    <script src="assets/js/main.js"></script>
 </body>
 </html>
-
