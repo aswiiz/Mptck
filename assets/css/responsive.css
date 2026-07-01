@@ -1,89 +1,37 @@
 /* ==========================================================================
-   MPTKY UI Responsive Layout Adaptations & Breakpoints
+   Responsive Adaptations & Layout Enhancements
    ========================================================================== */
 
-/* --- Extra Small Mobile Devices (Optimizing micro layouts) --- */
-@media (max-width: 380px) {
-    .max-w-7xl {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
+@media (max-width: 768px) {
+    /* Optimize padding dynamics on smaller hardware profiles */
+    .py-24 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
     
-    /* Adapt typography scales to prevent word wrapping breaks */
-    h2 {
-        font-size: 1.75rem !important;
-        line-height: 1.2 !important;
-    }
-
-    /* Stack buttons gracefully on extremely tight screens */
-    .flex-col.sm\:flex-row > a {
-        width: 100%;
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-    }
-}
-
-/* --- Small/Medium Mobile Displays (Up to Tablets) --- */
-@media (max-width: 639px) {
-    /* Optimize padding spaces to save screen real estate */
-    section {
-        padding-top: 3.5rem !important;
-        padding-bottom: 3.5rem !important;
-    }
-
-    /* Convert tabular layouts and complex grids into native single stacks */
-    .grid-cols-3 {
-        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
-        gap: 1.5rem !important;
-        text-align: center;
+    /* Ensure charts scale clean over fluid mobile viewports */
+    #placementAnalyticsChart {
+        height: 220px !important;
     }
     
-    /* Remove absolute floating decorations that could clip out of bounds */
-    .absolute.-bottom-6.-left-6 {
-        display: none !important;
-    }
-}
-
-/* --- Medium Devices / Tablets (Portrait to Landscape Transition) --- */
-@media (min-width: 640px) and (max-width: 1023px) {
-    /* Prevent hero grid item collapses from stacking text poorly */
+    /* Optimize placement layout matrices */
     .grid {
-        gap: 2rem !important;
+        gap: 1.25rem;
     }
 
-    /* Clean navigation drawer padding overrides */
-    #mobile-menu {
-        max-height: calc(100vh - 120px);
-        overflow-y: auto;
-    }
-}
-
-/* --- Large Desktop Edge Optimizations --- */
-@media (min-width: 1024px) {
-    /* Lock structural headers to prevent visual jank when scrolling */
-    #navbar {
-        will-change: transform, background-color;
-        transition: padding 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Keep chatbot component balanced on fluid viewports */
+    #chatbot-wrapper {
+        bottom: 1rem;
+        right: 1rem;
     }
     
-    /* Ensure clean image ratios are maintained on wide viewports */
-    .aspect-\[4\/5\] {
-        max-height: 520px;
+    #chatbot-box {
+        width: calc(100vw - 2rem);
+        right: 0;
     }
 }
 
-/* --- Print View Utility Overrides (Academic Compliance Optimization) --- */
-@media print {
-    body {
-        background: #ffffff !important;
-        color: #000000 !important;
-    }
-    header, footer, button, .bg-brand-950 {
-        display: none !important;
-    }
-    section {
-        padding: 0 !important;
-        page-break-inside: avoid;
-    }
+/* Disable touch highlight overlays on dynamic interactive elements */
+input, select, textarea, button, a {
+    -webkit-tap-highlight-color: transparent;
 }
-
